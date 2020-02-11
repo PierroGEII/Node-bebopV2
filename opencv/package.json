@@ -1,0 +1,106 @@
+{
+  "_args": [
+    [
+      "opencv",
+      "/home/pierrick/Documents"
+    ]
+  ],
+  "_from": "opencv@latest",
+  "_hasShrinkwrap": false,
+  "_id": "opencv@6.2.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/opencv",
+  "_nodeVersion": "8.10.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/opencv_6.2.0_1553074627963_0.544787682234896"
+  },
+  "_npmUser": {
+    "email": "peterbraden@peterbraden.co.uk",
+    "name": "peterbraden"
+  },
+  "_npmVersion": "5.6.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "opencv",
+    "raw": "opencv",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/opencv/-/opencv-6.2.0.tgz",
+  "_shasum": "2f37526fcd725e5934cbdaa84ae884e4d126fa4e",
+  "_shrinkwrap": null,
+  "_spec": "opencv",
+  "_where": "/home/pierrick/Documents",
+  "author": {
+    "email": "peterbraden@peterbraden.co.uk",
+    "name": "Peter Braden"
+  },
+  "bugs": {
+    "url": "https://github.com/peterbraden/node-opencv/issues"
+  },
+  "bundleDependencies": [
+    "node-pre-gyp"
+  ],
+  "dependencies": {
+    "buffers": "^0.1.1",
+    "istanbul": "0.4.5",
+    "nan": "^2.0.9",
+    "node-pre-gyp": "*"
+  },
+  "description": "Node Bindings to OpenCV",
+  "devDependencies": {
+    "aws-sdk": "~2.1.20",
+    "glob": "^5.0.3",
+    "request": "^2.44.0",
+    "tape": "^3.0.0"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 1244,
+    "integrity": "sha512-VpLhv5BNl3xF3cfVVwEfuvHQR0ItGn18VzXH6DH0zZfzmzbocX1niEb+7f4lcjnfmyJ0nH+gskxFegkPnCfr1w==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJckgnECRA9TVsSAnZWagAAY/wP/3H+H5/hz7ozEsY2RJ3F\n3X94Y/M6v3O8/F2nygFR2P/RLti0n63OfkgI/eOhUIKglYycQZQ9xeqNOgV1\nf02PNuFZbgdXNbZ7fdZyqsdA7bTFWj1MphqgUl2H+6tAwXApXW8KG+eTRRVL\nDnbfQmEw5uSCY15jSNypjNl1rM3LwtgPQqMG5j88Ejxsaf7IXGb47gXB9ErD\nV5f/4rwt/wsN6G+9VNxAeXR7JOoorzy4Dpm421P9r36hnxrgkgLSpaoGrsNf\nlEf3Ni8bNNpgu6v6sGmIP+6UiJqpku2d4IcRt8cHFbV4z8mXEfuELHhnQMUB\n3TwZdun9/sqqphFIr0p2clHSWisWZgL1XVtD9K0JZXkuJzm4/9ZCS0yshnYU\ns8uyoFdTAJfMICOie1KGRxzYIDv52IyhEyArJIOZ58lfJlxmMGTPPPkR54Ea\nBvgp2j1yWkTjMxKdjpd0Tc8Br+bar3mJ7GBTDj8F2/UbmQwKyV4mdU8FhImB\nWr3kksuexKMEilwbe7IZUpXShMEkXu7FWYINkkCtyBDnm48GYF6m4vMUd0oa\nyaBqvOw2ZvqnzGwemULE8sBu8Tci/3cFZMYJtEEazXYzwKnF+Hxf5aeT5HOp\nqhOR/DBQbRmx8VauLRB/iDaJZ9aQYWcaWULC+hi/kWJJhrW8rxXYpsivWs+q\njp1C\r\n=zXz6\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "2f37526fcd725e5934cbdaa84ae884e4d126fa4e",
+    "tarball": "https://registry.npmjs.org/opencv/-/opencv-6.2.0.tgz",
+    "unpackedSize": 30643536
+  },
+  "engines": {
+    "node": ">=0.12"
+  },
+  "gitHead": "5decfb3c339bfa182ac13e8db97bf87178279aed",
+  "gypfile": true,
+  "homepage": "https://github.com/peterbraden/node-opencv#readme",
+  "keywords": [
+    "computer",
+    "opencv",
+    "quadrocopter",
+    "vision"
+  ],
+  "license": "MIT",
+  "main": "./lib/opencv",
+  "maintainers": [
+    {
+      "name": "peterbraden",
+      "email": "peterbraden@peterbraden.co.uk"
+    }
+  ],
+  "name": "opencv",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterbraden/node-opencv.git"
+  },
+  "scripts": {
+    "build": "node-gyp build",
+    "install": "node-gyp rebuild",
+    "test": "node test/unit.js"
+  },
+  "version": "6.2.0"
+}

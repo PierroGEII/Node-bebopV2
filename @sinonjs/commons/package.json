@@ -1,0 +1,125 @@
+{
+  "_args": [
+    [
+      "@sinonjs/commons@^1.7.0",
+      "/home/pierrick/Documents/node_modules/sinon"
+    ]
+  ],
+  "_from": "@sinonjs/commons@>=1.7.0 <2.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "@sinonjs/commons@1.7.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/@sinonjs/commons",
+  "_nodeVersion": "12.1.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/commons_1.7.0_1576683296136_0.713699867957446"
+  },
+  "_npmUser": {
+    "email": "mail@maxantoni.de",
+    "name": "mantoni"
+  },
+  "_npmVersion": "6.13.4",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "@sinonjs/commons",
+    "raw": "@sinonjs/commons@^1.7.0",
+    "rawSpec": "^1.7.0",
+    "scope": "@sinonjs",
+    "spec": ">=1.7.0 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/@sinonjs/formatio",
+    "/@sinonjs/samsam",
+    "/lolex",
+    "/nise",
+    "/sinon"
+  ],
+  "_resolved": "https://registry.npmjs.org/@sinonjs/commons/-/commons-1.7.0.tgz",
+  "_shasum": "f90ffc52a2e519f018b13b6c4da03cbff36ebed6",
+  "_shrinkwrap": null,
+  "_spec": "@sinonjs/commons@^1.7.0",
+  "_where": "/home/pierrick/Documents/node_modules/sinon",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/sinonjs/commons/issues"
+  },
+  "dependencies": {
+    "type-detect": "4.0.8"
+  },
+  "description": "Simple functions shared among the sinon end user libraries",
+  "devDependencies": {
+    "@sinonjs/referee-sinon": "5.0.0",
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-config-sinon": "^3.0.0",
+    "eslint-plugin-ie11": "^1.0.0",
+    "eslint-plugin-local-rules": "^0.1.0",
+    "eslint-plugin-mocha": "^6.1.1",
+    "eslint-plugin-prettier": "^3.0.0",
+    "husky": "3.1.0",
+    "jsverify": "0.8.4",
+    "knuth-shuffle": "^1.0.8",
+    "lint-staged": "9.5.0",
+    "mocha": "6.2.2",
+    "nyc": "14.1.1",
+    "prettier": "^1.14.3"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 39,
+    "integrity": "sha512-qbk9AP+cZUsKdW1GJsBpxPKFmCJ0T8swwzVje3qFd+AkQb74Q/tiuzrdfFg8AD2g5HH/XbE/I8Uc1KYHVYWfhg==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJd+kchCRA9TVsSAnZWagAA4DQP/0OK1GXeaszJqFK+Yp2N\nfm9TglUSrZp6s68vVGHHiZLV0su7co2di8J7oHbUPvJuB8c5N6HWMQuLPLxw\nYFbUScg9JKXzwzFkMUkQz9JusIAS3isW2cm18ZB1hQ+D5phATXlJMuwAPR5V\naKg2iCZG/+aztHqlJKhOJNSnYJxfI60qIIv8PpWVRFarSLMtT9lYCAcVydAw\nt+BX77ECVMPgW6Q7QrHWGedpJTAmmkIVhCgdbjqcoTYcHQsL+xHk3O8mkvkX\nD5/NcV4v6MBIAdfGerfiUlgV3YX5fImlh72AjPVJRuZMjpkkIqnBI2kuHgSw\n6mfvdqZb9aeMqOfIqrdeN7jINqSHmgy6wcfiPffL+N21yxTExBfXR5RfhKWu\nx/9dCTdt6cFi+cqgdFEiZgd98Z4vDacWgqSIWqBRnYr1XEL+HXwBQsABJGxO\n/UtMJN1yQ/N47Yj1ZKkVjCz2zi2b4NeI9RBibm5GyAU7n9H1Zydth8NAiRsO\nZaKJSAF/yIvysOT16U7h52dMSaWLKcq8UlpTazXPbb+hKN0NdOjcxYIje0W6\n6sfVQ4g3FwXWBdTJweOmwzHtRJdjPDcZjIYw+j2J9d3U0lY0tcM3ZUh7ZAuW\nzv0i6yQv3PefrG3oSl0MnNDsnAY82N9iPsIemwfeQ+Zm6UPpgSgzM8BJsduA\nE07v\r\n=Cust\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "f90ffc52a2e519f018b13b6c4da03cbff36ebed6",
+    "tarball": "https://registry.npmjs.org/@sinonjs/commons/-/commons-1.7.0.tgz",
+    "unpackedSize": 34579
+  },
+  "gitHead": "59bed154b7ae30feb19e72bbad35c4cd47cd25e1",
+  "homepage": "https://github.com/sinonjs/commons#readme",
+  "license": "BSD-3-Clause",
+  "lint-staged": {
+    "*.js": [
+      "eslint"
+    ]
+  },
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "cjohansen",
+      "email": "christian@cjohansen.no"
+    },
+    {
+      "name": "fatso83",
+      "email": "carlerik@gmail.com"
+    },
+    {
+      "name": "mantoni",
+      "email": "mail@maxantoni.de"
+    },
+    {
+      "name": "mrgnrdrck",
+      "email": "morgan@roderick.dk"
+    },
+    {
+      "name": "peer5",
+      "email": "opensource@peer5.com"
+    }
+  ],
+  "name": "@sinonjs/commons",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sinonjs/commons.git"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "precommit": "lint-staged",
+    "test": "mocha --recursive -R dot \"lib/**/*.test.js\"",
+    "test-check-coverage": "npm run test-coverage && nyc check-coverage --branches 100 --functions 100 --lines 100",
+    "test-coverage": "nyc --reporter text --reporter html --reporter lcovonly npm run test"
+  },
+  "version": "1.7.0"
+}

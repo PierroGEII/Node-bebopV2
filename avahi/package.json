@@ -1,0 +1,62 @@
+{
+  "_args": [
+    [
+      "avahi",
+      "/home/pierrick/Documents"
+    ]
+  ],
+  "_defaultsLoaded": true,
+  "_engineSupported": true,
+  "_from": "avahi@latest",
+  "_id": "avahi@0.0.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/avahi",
+  "_nodeVersion": "v0.6.12",
+  "_npmUser": {
+    "email": "izaak.schroeder@gmail.com",
+    "name": "izaakschroeder"
+  },
+  "_npmVersion": "1.1.4",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "avahi",
+    "raw": "avahi",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/avahi/-/avahi-0.0.1.tgz",
+  "_shasum": "610ed4a2360838656ce4b86ac6e54dc5eb862d8d",
+  "_shrinkwrap": null,
+  "_spec": "avahi",
+  "_where": "/home/pierrick/Documents",
+  "author": {
+    "name": "Izaak Schroeder"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "610ed4a2360838656ce4b86ac6e54dc5eb862d8d",
+    "tarball": "https://registry.npmjs.org/avahi/-/avahi-0.0.1.tgz"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "main": "avahi.js",
+  "maintainers": [
+    {
+      "name": "izaakschroeder",
+      "email": "izaak.schroeder@gmail.com"
+    }
+  ],
+  "name": "avahi",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "version": "0.0.1"
+}
