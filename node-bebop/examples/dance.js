@@ -33,6 +33,7 @@ drone.connect(function() {
     if (key && key.ctrl && key.name == 'c') {
       process.stdin.pause()
       console.log("Fin programme");
+      process.exit(1)
     }
 
     if (key && key.name == 'a') {
