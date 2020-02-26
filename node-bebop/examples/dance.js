@@ -12,18 +12,22 @@ else
   require('tty').setRawMode(true)
 
 //Menu d'affichage
-console.log("=========================");
-console.log("   a : Vole");
-console.log("   e : Atteri");
-console.log("   x : Vol stationnaire");
-console.log("   z : Avance");
-console.log("   s : Recule");
-console.log("   q : Gauche");
-console.log("   d : Droite");
-console.log("   u : Monte");
-console.log("   j : Descend");
-console.log("   b : Tourne");
-console.log("=========================");
+console.log("===================================================");
+console.log("   START : Vole");
+console.log("   SELECT : Atteri");
+console.log("   PS : Vol stationnaire");
+console.log("   R2 : Monte");
+console.log("   L2 : Descend");
+console.log("   R1 : Roulis droit");
+console.log("   L1 : Roulis gauche");
+console.log("                                                  ");
+console.log("                          |          Avance       ");
+console.log("            |             |            |          ");
+console.log("  Gauche -- o -- Droite   |         -- o --       ");
+console.log("            |             |            |          ");
+console.log("                          |          Recule       ");
+console.log("                          |                       ");
+console.log("===================================================");
 
 //Etape de connexion
 drone.connect(function() {
@@ -35,7 +39,7 @@ drone.connect(function() {
       console.log("Fin programme");
       process.exit(1)
     }
-
+    /*
     if (key && key.name == 'a') {
       drone.takeOff();
       //console.log("Vole");
@@ -71,20 +75,51 @@ drone.connect(function() {
       //console.log("Gauche");
     }
 
-    if (key && key.name == 'u') {
+    if (key && key.name == 'up') {
       drone.up(10);
       //console.log("Monte");
     }
 
-    if (key && key.name == 'j') {
+    if (key && key.name == 'down') {
       drone.down(10);
       //console.log("Descend");
     }
 
-    if (key && key.name == 'b') {
+    if (key && key.name == 'right') {
       drone.clockwise(50);
-      //console.log("Tourne");
+      //console.log("Roulis droit");
     }
+
+    if (key && key.name == 'left') {
+      drone.counterClockwise(50);
+      //console.log("Roulis gauche");
+    }
+  */
+  switch(key && key.name){
+    case 'a'  : drone.takeoff();
+              break;
+    case 'e'  : drone.land();
+              break;
+    case 'x'  : drone.stop();
+              break;
+    case 'z'  : drone.forward(10);
+              break;
+    case 's'  : drone.backward(10);
+              break;
+    case 'd'  : drone.right(10);
+              break;
+    case 'q'  : drone.left(10);
+              break;
+    case 'up' : drone.up(10);
+              break;
+    case 'down': drone.down(10);
+              break;
+    case 'right' : drone.clockwise(50);
+              break;
+    case 'left': drone.counterClockwise(50);
+              break;
+    default : drone.stop();
+  }
   })  //end process.stdin.on
 }); //end drone.connect
 
